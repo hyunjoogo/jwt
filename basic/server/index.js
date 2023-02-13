@@ -16,8 +16,8 @@ app.use(cors({
 
 
 
-app.listen(process.env.PORT, () => {
+app.listen(8321, () => {
   console.log('================================');
-  console.log(`     server is on ${process.env.PORT}`);
+  console.log(`     server is on 8321`);
   console.log('================================');
 });
